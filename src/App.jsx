@@ -1,33 +1,42 @@
-import { useState } from 'react'
+import React, { useReducer, useRef, useState } from 'react';
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+
+function reducer(state, action) {
+  
+}
+
+
 function App() {
-  const [count, setCount] = useState(0)
+  const [task, dispatch] = useReducer(reducer, null)
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <>  
+    <div className="task">
+    <h2>Add task</h2>
+    <div className="top">
+      <div className="bg-cyan-600">
+        <label htmlFor="inp">text</label>
+        <input type="text" name="" id="inp"  />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      <button className='bg-cyan-950'>Add</button>
+    </div>
+    <div className="flex">
+      <div className='bg-red-600'>
+        <label htmlFor="chek">chek</label>
+        <input type="checkbox" name="" id="chek" />
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <div className="bg-green-600 ">
+        <label htmlFor="text">text</label>
+        <input type="text" name="text" id="text" />
+      </div>
+      <button>Edit </button>
+      <button>Delete</button>
+    </div>
+   </div>
+     
     </>
   )
 }
