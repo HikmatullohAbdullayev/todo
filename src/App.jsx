@@ -15,6 +15,7 @@ function App() {
   return (
     <>  
     <div className="task">
+      <h2>hozir kino ko'rvomman</h2>
     <h2>Add task</h2>
     <div className="top">
       <div className="bg-cyan-600">
