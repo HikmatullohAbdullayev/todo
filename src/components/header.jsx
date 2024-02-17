@@ -6,8 +6,8 @@ function Header() {
     const {mode, setMode, toggle} = useContext(ThemeContext)
     
     return (
-        <div className='flex justify-between items-center'>
-           <div className="block">
+        <div className='flex justify-between items-center mx-auto w-[1200px] '>
+           <div className="block mt-5">
            <p className={`p-3 ${mode ? 'bg-cyan-200 '  : 'bg-gray-500 text-white'}`}>Lorem ipsum dolor sit amet.</p>
            <p className={`p-3 ${mode ? 'bg-cyan-200 '  : 'bg-gray-500 text-white'}`}>Lorem ipsum dolor sit amet.</p>
            </div>
