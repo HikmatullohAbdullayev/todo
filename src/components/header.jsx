@@ -8,8 +8,8 @@ function Header() {
     return (
         <div className='flex justify-between items-center'>
            <div className="block">
-           <p className={`p-3 ${mode ? 'bg-cyan-600 '  : 'bg-red-700 text-white'}`}>Lorem ipsum dolor sit amet.</p>
-           <p className={`p-3 ${mode ? 'bg-cyan-600 ' : 'bg-red-700 text-white'}`}>Lorem ipsum dolor sit amet.</p>
+           <p className={`p-3 ${mode ? 'bg-cyan-200 '  : 'bg-gray-500 text-white'}`}>Lorem ipsum dolor sit amet.</p>
+           <p className={`p-3 ${mode ? 'bg-cyan-200 '  : 'bg-gray-500 text-white'}`}>Lorem ipsum dolor sit amet.</p>
            </div>
 
            <button className='bg-green-500 p-2 rounded-lg' onClick={toggle}>dark/light mode</button>

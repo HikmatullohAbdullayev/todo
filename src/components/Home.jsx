@@ -7,7 +7,7 @@ function Home() {
     
     return (
         <div className='mt-[50px]'>
-            <p className={`p-3 ${mode ? 'bg-cyan-600 '  : 'bg-red-700 text-white'}`}>Boshlang‘ich sinfda o‘qiyotgan paytlarim edi, yoshim 10 da edi. U davrda sartaroshxonalar ko‘p bo‘lmasdi. Bizning mahallada etikdo‘zlar ishlaydigan kichkina kulbada sartaroshxona ochildi. O‘rtog‘imning onasi biz – 3-4 ta bolani o‘sha yerga olib bordilar birinchi marta. Sartarosh 50 yoshlardan oshgan odam edi. O‘rtog‘imning onasi bizni o‘sha yerga tashlab ketdi, sochimizni kal qilib oldirib chiqqanmiz. U odam kulib turardi, bizni ham kuldirib gapirgani uchun yana borgimiz kelardi.
+            <p className={`p-3 ${mode ? 'bg-cyan-200 '  : 'bg-gray-500 text-white'}`}>Boshlang‘ich sinfda o‘qiyotgan paytlarim edi, yoshim 10 da edi. U davrda sartaroshxonalar ko‘p bo‘lmasdi. Bizning mahallada etikdo‘zlar ishlaydigan kichkina kulbada sartaroshxona ochildi. O‘rtog‘imning onasi biz – 3-4 ta bolani o‘sha yerga olib bordilar birinchi marta. Sartarosh 50 yoshlardan oshgan odam edi. O‘rtog‘imning onasi bizni o‘sha yerga tashlab ketdi, sochimizni kal qilib oldirib chiqqanmiz. U odam kulib turardi, bizni ham kuldirib gapirgani uchun yana borgimiz kelardi.
 
 Bir-ikki oy o‘tgach, yana bordik soch oldirishga. O‘shanda menga sen do‘mboqqina ekansan, yuzlaring shirin ekan, deb har xil gaplar aytdi. Sochimni olayotganda badamyunimning har joyiga tegib ketib, noqulay holatga tushiradigan harakatlar qilgan. Bizga hech kim bu narsa haqida aytmagan, shuning uchun soch olayotgan paytda tegib ketayotgandir, deb o‘tiraverganman. Chiqib ketayotganimda yelkamga urib, «Sen kelgin, albatta, kutaman» dedi. Bolalar bilan soch oldirishga borib turdik.
 
@@ -18,7 +18,7 @@ Sal o‘zimga kelganimdan keyin olib borib qo‘yaman dedi, yo‘q dedim, o‘zi
 O‘sha sartaroshxonaga bormay qo‘ydim. O‘rtoqlarimdan doim so‘rar ekan meni. Uyimni, maktabimni surishtiribdi ulardan. Doim kulib yuradigan bola edim ilgari, ota-onam senga nima bo‘lyapti, deb so‘rardi. Bir marta maktab yonida ko‘rib qo‘rqib ketganman. O‘shanda niia bo‘lganini hech tushunolmasdim, birov aytmagan ham bizga. Keyinchalik jinsiy hayot haqida katta akalarimizdan eshitib bila boshladim, lekin u odamning qilgan ishini tushunolmasdim. O‘zimni aybdor his qilardim, kirdek tuyulardim o‘zimga. Bir o‘zim yurishga qo‘rqadigan bo‘lib qolgandim. Maktabga ketishda ham o‘rtoqlarim chaqirgpch, birga ketardim.
 
 Katta bo‘lib u-bu narsani bila boshlaganimda o‘zimdan jirkanib ketardim. O‘zimni eng past odamdek his qilardim. Oliygohga o‘qishga kirib, o‘qib yurgan paytlarimda pedofil haqida bilganman. U odam qarib qolgan, bolalari, nevaralari bor edi. Topib borib o‘ldirgim kelardi.</p>
-           <p className={`p-3 ${mode ? 'bg-cyan-600 ' : 'bg-red-700 text-white'}`}>Respublikaning turli hududlarida kunora yo‘l-transport hodisalari sodir bo‘ladi. Ularning kattagina qismi insonlar o‘limi bilan yakun topadi. 
+           <p className={`p-3 ${mode ? 'bg-cyan-200 '  : 'bg-gray-500 text-white'}`}>Respublikaning turli hududlarida kunora yo‘l-transport hodisalari sodir bo‘ladi. Ularning kattagina qismi insonlar o‘limi bilan yakun topadi. 
 
 Albatta, avariyalarning aksariyati haydovchilarning qo‘pol qoidabuzarligi bilan sodir etiladi. Ularning xatosini boshqa bir haydovchi takrorlamasligi, yo‘lda yuruvchilar xulosa qilishi uchun mazkur YTHlar haqida tezkor axborotlar berib borilishi zarur. 
 
